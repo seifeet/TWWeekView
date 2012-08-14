@@ -15,6 +15,9 @@
 		59EB6DAA15D9D33B001A7A54 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EB6DA915D9D33B001A7A54 /* TWAppDelegate.m */; };
 		59EB6DAD15D9D33B001A7A54 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EB6DAC15D9D33B001A7A54 /* TWViewController.m */; };
 		59EB6DB015D9D33B001A7A54 /* TWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59EB6DAE15D9D33B001A7A54 /* TWViewController.xib */; };
+		59EB6DB915D9D445001A7A54 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EB6DB815D9D445001A7A54 /* NSDate+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59EB6DC315D9D81D001A7A54 /* pin57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 59EB6DC115D9D81D001A7A54 /* pin57x57.png */; };
+		59EB6DC415D9D81D001A7A54 /* pin114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 59EB6DC215D9D81D001A7A54 /* pin114x114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,10 @@
 		59EB6DAB15D9D33B001A7A54 /* TWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
 		59EB6DAC15D9D33B001A7A54 /* TWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
 		59EB6DAF15D9D33B001A7A54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWViewController.xib; sourceTree = "<group>"; };
+		59EB6DB715D9D445001A7A54 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		59EB6DB815D9D445001A7A54 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		59EB6DC115D9D81D001A7A54 /* pin57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin57x57.png; sourceTree = "<group>"; };
+		59EB6DC215D9D81D001A7A54 /* pin114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin114x114.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 		59EB6D8A15D9D33B001A7A54 = {
 			isa = PBXGroup;
 			children = (
+				59EB6DBF15D9D80B001A7A54 /* Images */,
 				59EB6D9F15D9D33B001A7A54 /* TWWeekView */,
 				59EB6D9815D9D33B001A7A54 /* Frameworks */,
 				59EB6D9615D9D33B001A7A54 /* Products */,
@@ -77,6 +85,7 @@
 		59EB6D9F15D9D33B001A7A54 /* TWWeekView */ = {
 			isa = PBXGroup;
 			children = (
+				59EB6DB615D9D433001A7A54 /* Classes */,
 				59EB6DA815D9D33B001A7A54 /* TWAppDelegate.h */,
 				59EB6DA915D9D33B001A7A54 /* TWAppDelegate.m */,
 				59EB6DAB15D9D33B001A7A54 /* TWViewController.h */,
@@ -96,6 +105,24 @@
 				59EB6DA715D9D33B001A7A54 /* TWWeekView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59EB6DB615D9D433001A7A54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59EB6DB715D9D445001A7A54 /* NSDate+Helper.h */,
+				59EB6DB815D9D445001A7A54 /* NSDate+Helper.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		59EB6DBF15D9D80B001A7A54 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				59EB6DC115D9D81D001A7A54 /* pin57x57.png */,
+				59EB6DC215D9D81D001A7A54 /* pin114x114.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +179,8 @@
 			files = (
 				59EB6DA415D9D33B001A7A54 /* InfoPlist.strings in Resources */,
 				59EB6DB015D9D33B001A7A54 /* TWViewController.xib in Resources */,
+				59EB6DC315D9D81D001A7A54 /* pin57x57.png in Resources */,
+				59EB6DC415D9D81D001A7A54 /* pin114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +194,7 @@
 				59EB6DA615D9D33B001A7A54 /* main.m in Sources */,
 				59EB6DAA15D9D33B001A7A54 /* TWAppDelegate.m in Sources */,
 				59EB6DAD15D9D33B001A7A54 /* TWViewController.m in Sources */,
+				59EB6DB915D9D445001A7A54 /* NSDate+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +310,7 @@
 				59EB6DB515D9D33B001A7A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
